@@ -15,8 +15,8 @@ def explain_term(term):
         print("\n请输入一个有效的 AI 术语。\n")
     elif term == "全部":
         print("目前收录的术语:")
-        for term in ai_glossary:
-            print(term)
+        for item in ai_glossary:
+            print(item)
     else:
         print(f"\n暂时没有找到“{term}”的解释。\n")
 
